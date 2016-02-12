@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7D33431F1C6DC110003D3779 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D33431E1C6DC110003D3779 /* AppDelegate.swift */; };
-		7D3343211C6DC110003D3779 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D3343201C6DC110003D3779 /* Assets.xcassets */; };
-		7D3343241C6DC110003D3779 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D3343221C6DC110003D3779 /* MainMenu.xib */; };
 		7D3343331C6DC176003D3779 /* SugoiToolKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D3343321C6DC176003D3779 /* SugoiToolKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D33433A1C6DC176003D3779 /* SugoiToolKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D3343301C6DC176003D3779 /* SugoiToolKit.framework */; };
 		7D3343411C6DC176003D3779 /* SugoiToolKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3343401C6DC176003D3779 /* SugoiToolKitTests.swift */; };
@@ -72,9 +69,6 @@
 
 /* Begin PBXFileReference section */
 		7D33431B1C6DC110003D3779 /* SugoiTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SugoiTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D33431E1C6DC110003D3779 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7D3343201C6DC110003D3779 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7D3343231C6DC110003D3779 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		7D3343251C6DC110003D3779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D3343301C6DC176003D3779 /* SugoiToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SugoiToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D3343321C6DC176003D3779 /* SugoiToolKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SugoiToolKit.h; sourceTree = "<group>"; };
@@ -140,9 +134,6 @@
 		7D33431D1C6DC110003D3779 /* SugoiTool */ = {
 			isa = PBXGroup;
 			children = (
-				7D33431E1C6DC110003D3779 /* AppDelegate.swift */,
-				7D3343201C6DC110003D3779 /* Assets.xcassets */,
-				7D3343221C6DC110003D3779 /* MainMenu.xib */,
 				7D3343251C6DC110003D3779 /* Info.plist */,
 			);
 			path = SugoiTool;
@@ -284,8 +275,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D3343211C6DC110003D3779 /* Assets.xcassets in Resources */,
-				7D3343241C6DC110003D3779 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,7 +299,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D33431F1C6DC110003D3779 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,17 +336,6 @@
 			targetProxy = 7D3343431C6DC176003D3779 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		7D3343221C6DC110003D3779 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7D3343231C6DC110003D3779 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7D3343261C6DC110003D3779 /* Debug */ = {
