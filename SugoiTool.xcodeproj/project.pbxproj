@@ -19,6 +19,7 @@
 		7D3343561C6DC9EA003D3779 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3343551C6DC9EA003D3779 /* main.swift */; };
 		7D3343581C6DCB3D003D3779 /* Sugoi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3343571C6DCB3D003D3779 /* Sugoi.swift */; };
 		7D33435A1C6DCBF3003D3779 /* SugoiCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3343591C6DCBF3003D3779 /* SugoiCommand.swift */; };
+		7D33435C1C6DCE18003D3779 /* Components.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D33435B1C6DCE18003D3779 /* Components.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		7D3343551C6DC9EA003D3779 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7D3343571C6DCB3D003D3779 /* Sugoi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sugoi.swift; sourceTree = "<group>"; };
 		7D3343591C6DCBF3003D3779 /* SugoiCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SugoiCommand.swift; sourceTree = "<group>"; };
+		7D33435B1C6DCE18003D3779 /* Components.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Components.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 				7D3343251C6DC110003D3779 /* Info.plist */,
 				7D3343551C6DC9EA003D3779 /* main.swift */,
 				7D3343591C6DCBF3003D3779 /* SugoiCommand.swift */,
+				7D33435B1C6DCE18003D3779 /* Components.plist */,
 			);
 			path = SugoiTool;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D33435C1C6DCE18003D3779 /* Components.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
