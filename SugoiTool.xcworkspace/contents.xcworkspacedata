@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Carthage/Checkouts/Result/Result.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/Commandant/Commandant.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:SugoiTool.xcodeproj">
    </FileRef>
 </Workspace>
