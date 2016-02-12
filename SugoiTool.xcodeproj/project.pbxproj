@@ -10,7 +10,50 @@
 		7D33431F1C6DC110003D3779 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D33431E1C6DC110003D3779 /* AppDelegate.swift */; };
 		7D3343211C6DC110003D3779 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D3343201C6DC110003D3779 /* Assets.xcassets */; };
 		7D3343241C6DC110003D3779 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D3343221C6DC110003D3779 /* MainMenu.xib */; };
+		7D3343331C6DC176003D3779 /* SugoiToolKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D3343321C6DC176003D3779 /* SugoiToolKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D33433A1C6DC176003D3779 /* SugoiToolKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D3343301C6DC176003D3779 /* SugoiToolKit.framework */; };
+		7D3343411C6DC176003D3779 /* SugoiToolKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3343401C6DC176003D3779 /* SugoiToolKitTests.swift */; };
+		7D3343451C6DC176003D3779 /* SugoiToolKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D3343301C6DC176003D3779 /* SugoiToolKit.framework */; };
+		7D3343461C6DC176003D3779 /* SugoiToolKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7D3343301C6DC176003D3779 /* SugoiToolKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D33433B1C6DC176003D3779 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D3343131C6DC110003D3779 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D33432F1C6DC176003D3779;
+			remoteInfo = SugoiToolKit;
+		};
+		7D33433D1C6DC176003D3779 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D3343131C6DC110003D3779 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D33431A1C6DC110003D3779;
+			remoteInfo = SugoiTool;
+		};
+		7D3343431C6DC176003D3779 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D3343131C6DC110003D3779 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D33432F1C6DC176003D3779;
+			remoteInfo = SugoiToolKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7D33434A1C6DC176003D3779 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7D3343461C6DC176003D3779 /* SugoiToolKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7D33431B1C6DC110003D3779 /* SugoiTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SugoiTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -18,6 +61,12 @@
 		7D3343201C6DC110003D3779 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D3343231C6DC110003D3779 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		7D3343251C6DC110003D3779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D3343301C6DC176003D3779 /* SugoiToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SugoiToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D3343321C6DC176003D3779 /* SugoiToolKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SugoiToolKit.h; sourceTree = "<group>"; };
+		7D3343341C6DC176003D3779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D3343391C6DC176003D3779 /* SugoiToolKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SugoiToolKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D3343401C6DC176003D3779 /* SugoiToolKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugoiToolKitTests.swift; sourceTree = "<group>"; };
+		7D3343421C6DC176003D3779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,6 +74,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D3343451C6DC176003D3779 /* SugoiToolKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D33432C1C6DC176003D3779 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D3343361C6DC176003D3779 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D33433A1C6DC176003D3779 /* SugoiToolKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				7D33431D1C6DC110003D3779 /* SugoiTool */,
+				7D3343311C6DC176003D3779 /* SugoiToolKit */,
+				7D33433F1C6DC176003D3779 /* SugoiToolKitTests */,
 				7D33431C1C6DC110003D3779 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				7D33431B1C6DC110003D3779 /* SugoiTool.app */,
+				7D3343301C6DC176003D3779 /* SugoiToolKit.framework */,
+				7D3343391C6DC176003D3779 /* SugoiToolKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,7 +127,36 @@
 			path = SugoiTool;
 			sourceTree = "<group>";
 		};
+		7D3343311C6DC176003D3779 /* SugoiToolKit */ = {
+			isa = PBXGroup;
+			children = (
+				7D3343321C6DC176003D3779 /* SugoiToolKit.h */,
+				7D3343341C6DC176003D3779 /* Info.plist */,
+			);
+			path = SugoiToolKit;
+			sourceTree = "<group>";
+		};
+		7D33433F1C6DC176003D3779 /* SugoiToolKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D3343401C6DC176003D3779 /* SugoiToolKitTests.swift */,
+				7D3343421C6DC176003D3779 /* Info.plist */,
+			);
+			path = SugoiToolKitTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7D33432D1C6DC176003D3779 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D3343331C6DC176003D3779 /* SugoiToolKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		7D33431A1C6DC110003D3779 /* SugoiTool */ = {
@@ -68,15 +166,54 @@
 				7D3343171C6DC110003D3779 /* Sources */,
 				7D3343181C6DC110003D3779 /* Frameworks */,
 				7D3343191C6DC110003D3779 /* Resources */,
+				7D33434A1C6DC176003D3779 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7D3343441C6DC176003D3779 /* PBXTargetDependency */,
 			);
 			name = SugoiTool;
 			productName = SugoiTool;
 			productReference = 7D33431B1C6DC110003D3779 /* SugoiTool.app */;
 			productType = "com.apple.product-type.application";
+		};
+		7D33432F1C6DC176003D3779 /* SugoiToolKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D3343471C6DC176003D3779 /* Build configuration list for PBXNativeTarget "SugoiToolKit" */;
+			buildPhases = (
+				7D33432B1C6DC176003D3779 /* Sources */,
+				7D33432C1C6DC176003D3779 /* Frameworks */,
+				7D33432D1C6DC176003D3779 /* Headers */,
+				7D33432E1C6DC176003D3779 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SugoiToolKit;
+			productName = SugoiToolKit;
+			productReference = 7D3343301C6DC176003D3779 /* SugoiToolKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7D3343381C6DC176003D3779 /* SugoiToolKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D33434B1C6DC176003D3779 /* Build configuration list for PBXNativeTarget "SugoiToolKitTests" */;
+			buildPhases = (
+				7D3343351C6DC176003D3779 /* Sources */,
+				7D3343361C6DC176003D3779 /* Frameworks */,
+				7D3343371C6DC176003D3779 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D33433C1C6DC176003D3779 /* PBXTargetDependency */,
+				7D33433E1C6DC176003D3779 /* PBXTargetDependency */,
+			);
+			name = SugoiToolKitTests;
+			productName = SugoiToolKitTests;
+			productReference = 7D3343391C6DC176003D3779 /* SugoiToolKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -90,6 +227,13 @@
 				TargetAttributes = {
 					7D33431A1C6DC110003D3779 = {
 						CreatedOnToolsVersion = 7.2.1;
+					};
+					7D33432F1C6DC176003D3779 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					7D3343381C6DC176003D3779 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 7D33431A1C6DC110003D3779;
 					};
 				};
 			};
@@ -107,6 +251,8 @@
 			projectRoot = "";
 			targets = (
 				7D33431A1C6DC110003D3779 /* SugoiTool */,
+				7D33432F1C6DC176003D3779 /* SugoiToolKit */,
+				7D3343381C6DC176003D3779 /* SugoiToolKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -121,6 +267,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7D33432E1C6DC176003D3779 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D3343371C6DC176003D3779 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -132,7 +292,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7D33432B1C6DC176003D3779 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D3343351C6DC176003D3779 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D3343411C6DC176003D3779 /* SugoiToolKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D33433C1C6DC176003D3779 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D33432F1C6DC176003D3779 /* SugoiToolKit */;
+			targetProxy = 7D33433B1C6DC176003D3779 /* PBXContainerItemProxy */;
+		};
+		7D33433E1C6DC176003D3779 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D33431A1C6DC110003D3779 /* SugoiTool */;
+			targetProxy = 7D33433D1C6DC176003D3779 /* PBXContainerItemProxy */;
+		};
+		7D3343441C6DC176003D3779 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D33432F1C6DC176003D3779 /* SugoiToolKit */;
+			targetProxy = 7D3343431C6DC176003D3779 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7D3343221C6DC110003D3779 /* MainMenu.xib */ = {
@@ -250,6 +443,72 @@
 			};
 			name = Release;
 		};
+		7D3343481C6DC176003D3779 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = SugoiToolKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.gin0606.SugoiToolKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D3343491C6DC176003D3779 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = SugoiToolKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.gin0606.SugoiToolKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D33434C1C6DC176003D3779 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SugoiToolKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.gin0606.SugoiToolKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SugoiTool.app/Contents/MacOS/SugoiTool";
+			};
+			name = Debug;
+		};
+		7D33434D1C6DC176003D3779 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SugoiToolKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.gin0606.SugoiToolKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SugoiTool.app/Contents/MacOS/SugoiTool";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -267,6 +526,22 @@
 			buildConfigurations = (
 				7D3343291C6DC110003D3779 /* Debug */,
 				7D33432A1C6DC110003D3779 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7D3343471C6DC176003D3779 /* Build configuration list for PBXNativeTarget "SugoiToolKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D3343481C6DC176003D3779 /* Debug */,
+				7D3343491C6DC176003D3779 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7D33434B1C6DC176003D3779 /* Build configuration list for PBXNativeTarget "SugoiToolKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D33434C1C6DC176003D3779 /* Debug */,
+				7D33434D1C6DC176003D3779 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
