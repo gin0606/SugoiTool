@@ -17,6 +17,8 @@
 		7D3343531C6DC857003D3779 /* Commandant.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7D33434E1C6DC70D003D3779 /* Commandant.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7D3343541C6DC857003D3779 /* Result.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7D33434F1C6DC70D003D3779 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7D3343561C6DC9EA003D3779 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3343551C6DC9EA003D3779 /* main.swift */; };
+		7D3343581C6DCB3D003D3779 /* Sugoi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3343571C6DCB3D003D3779 /* Sugoi.swift */; };
+		7D33435A1C6DCBF3003D3779 /* SugoiCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3343591C6DCBF3003D3779 /* SugoiCommand.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,8 @@
 		7D33434E1C6DC70D003D3779 /* Commandant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Commandant.framework; path = Carthage/Build/Mac/Commandant.framework; sourceTree = "<group>"; };
 		7D33434F1C6DC70D003D3779 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/Mac/Result.framework; sourceTree = "<group>"; };
 		7D3343551C6DC9EA003D3779 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7D3343571C6DCB3D003D3779 /* Sugoi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sugoi.swift; sourceTree = "<group>"; };
+		7D3343591C6DCBF3003D3779 /* SugoiCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SugoiCommand.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +142,7 @@
 			children = (
 				7D3343251C6DC110003D3779 /* Info.plist */,
 				7D3343551C6DC9EA003D3779 /* main.swift */,
+				7D3343591C6DCBF3003D3779 /* SugoiCommand.swift */,
 			);
 			path = SugoiTool;
 			sourceTree = "<group>";
@@ -147,6 +152,7 @@
 			children = (
 				7D3343321C6DC176003D3779 /* SugoiToolKit.h */,
 				7D3343341C6DC176003D3779 /* Info.plist */,
+				7D3343571C6DCB3D003D3779 /* Sugoi.swift */,
 			);
 			path = SugoiToolKit;
 			sourceTree = "<group>";
@@ -303,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D3343561C6DC9EA003D3779 /* main.swift in Sources */,
+				7D33435A1C6DCBF3003D3779 /* SugoiCommand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D3343581C6DCB3D003D3779 /* Sugoi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +436,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = SugoiTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.gin0606.SugoiTool;
@@ -442,6 +451,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = SugoiTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.gin0606.SugoiTool;
@@ -452,6 +462,7 @@
 		7D3343481C6DC176003D3779 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -469,6 +480,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.gin0606.SugoiToolKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -477,6 +489,7 @@
 		7D3343491C6DC176003D3779 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
