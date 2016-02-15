@@ -258,7 +258,6 @@
 					};
 					7D3343381C6DC176003D3779 = {
 						CreatedOnToolsVersion = 7.2.1;
-						TestTargetID = 7D33431A1C6DC110003D3779;
 					};
 				};
 			};
@@ -526,7 +525,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.gin0606.SugoiToolKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SugoiTool.app/Contents/MacOS/SugoiTool";
 			};
 			name = Debug;
 		};
@@ -538,7 +536,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.gin0606.SugoiToolKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SugoiTool.app/Contents/MacOS/SugoiTool";
 			};
 			name = Release;
 		};
