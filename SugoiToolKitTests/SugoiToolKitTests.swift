@@ -1,28 +1,14 @@
 import XCTest
 @testable import SugoiToolKit
 
-class SugoiToolKitTests: XCTestCase {
-    
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-    
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measureBlock {
-            // Put the code you want to measure the time of here.
-        }
-    }
-    
+class SugoiTests: XCTestCase {
+  func testSugoi() {
+    let sugoi = Sugoi(isSugoi: true)
+    XCTAssertEqual(sugoi.command(), "凄い")
+  }
+
+  func testSugokunai() {
+    let sugoi = Sugoi(isSugoi: false)
+    XCTAssertEqual(sugoi.command(), "普通")
+  }
 }
